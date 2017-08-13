@@ -15,6 +15,10 @@ and critical thinking.
 
 This application ensures that any non-alphabetical character is replaced to whitespace. 
 
+You can specify a different cipher if you wish. Simply append it at the end of your input
+
+    ./rot13 test.txt 15
+
 Of course, as a person with interests in cybersecurity, I encourage you all to reverse engineer this. I'm not the best at writing secure C code, being someone accustomed to modern systems programming languages with much more type safety. Still, I really like C's performance, and I learn quite a lot about the Linux Kernel.
 
 Have fun!
